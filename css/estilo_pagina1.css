@@ -1,0 +1,101 @@
+#cabecera{
+	background: rgb(25, 30, 71);
+	color: white;
+    height: 70px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+img {
+	display:block;
+    margin:auto;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(26, 24, 24);
+	background:white; 
+	font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 5px; /* Relleno superior igual a la altura de la cabecera*/
+}
+section{
+    padding: 50px;
+    background: rgb(218, 236, 250);
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+    box-shadow: 0 0 10px rgb(0,0,0,.1);
+    
+    
+}
+
+nav{
+    background: rgb(218, 236, 250);
+}
+
+#columna1{
+    padding: 70px;
+    float: left;
+    width: 10%;
+    color:red
+
+}
+#columna2{
+    padding: 50px;
+    float: right;
+    width: 90%;
+    color:rgb(15, 15, 15);
+
+}
+dt{
+    color: blue;
+    
+}
+dd{
+    color: cadetblue
+}
+.contenido{
+    background: rgb(37, 201, 241);
+	width: 90%;
+	max-width: 700px;
+	margin: 5px auto;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
+.contenido2{
+    background: rgb(245, 239, 239);
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
+.contenido3{
+    background: rgb(46, 48, 47);
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
+#pie {
+    background: rgb(25, 30, 71);
+    width: 100%;
+	color:white;
+	text-align: left;
+	padding: 20px;
+	margin-top: 40px;
+}
+#pie1 {
+	margin: 0;
+}
+#pie2 {
+	margin: 0;
+}
+h1{
+    color: rgb(80, 83, 255);
+}
+h2{
+    color: brown;
+    
+}
