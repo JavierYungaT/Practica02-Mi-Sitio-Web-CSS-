@@ -20,9 +20,15 @@ nav{
 	width: 90%;
 	max-width: 800px;
 	margin: 20px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
 }
-
+#contenido1 {
+	background: rgb(245, 239, 239);
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
 
 body {
 	margin: 0;
@@ -44,7 +50,7 @@ h1 {
  
 .p {
     margin: 0 0 1.5em 0;
-    box-shadow: 6px 6px 0px rgb(65, 37, 37);
+    box-shadow: 0 0 6px  rgb(65, 37, 37);
 }
  
 #img {
@@ -72,7 +78,10 @@ h1 {
 	padding: 20px;
 	margin-top: 40px;
 }
-#pie_p {
+#pie_p1 {
+	margin: 0;
+}
+#pie_p2 {
 	margin: 0;
 }
 
