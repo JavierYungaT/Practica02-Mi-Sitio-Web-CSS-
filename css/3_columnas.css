@@ -1,0 +1,63 @@
+#cabecera{
+	background: #333;
+	color: white;
+    height: 200px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+#derecha{
+    padding: 50px;
+    margin: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: #d0cece;             
+    float: right;
+    position: relative;
+  bottom: -200px;
+}
+
+#izquierda{
+    padding: 50px;
+    float: left;
+    width: 15%;
+    color:red
+    
+}
+#centro{
+    padding: 0px;
+    width: 83%; 
+    background-color: #d0cece;  
+}
+#contenido {
+    width: 83%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgb(0,0,0,.1);
+
+    
+}
+section{
+    position: relative;
+    bottom: -200px;
+
+}
+nav{
+  position: relative;
+  bottom: -150px;
+}
+#pie {
+    background: rgb(25, 30, 71);
+    width: 100%;
+	color:white;
+	text-align: left;
+	padding: 20px;
+	margin-top: 40px;
+}
+#pie1 {
+    margin: 0;
+}
+#pie2 {
+    margin: 0;
+}
