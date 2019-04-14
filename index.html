@@ -3,16 +3,18 @@
     <head >
         <meta charset="utf-8" />
         <title>MUNDICOMPU</title>
-        <link href="styless.css" rel="stylesheet" />
-        
+        <link href="../Practica02-Mi-Sitio-Web-CSS-/css/estilo_principal.css" rel="stylesheet" />
     </head>
-    <body id="body">   
+    <body >
+        <!--cabecera-->
         <header id="cabecera">
-            <p><img class="imagen1" src="../imagenes/logo_principal1.png"></p>
-            <p><img class="imagen2" src="../imagenes/logo_principal.png"></p>
+            <a id="logo">
+                <span> MUNDICOMPU</span>
+                <span >Informacion / Marcas / características</span>
+            </a>
         </header>
-
-            <nav id="menuprinciapal">
+        <img id="img" src="../Practica02-Mi-Sitio-Web-CSS-/imagenes/logo_principal.png"> </img>
+            <nav id="columna1">
                 <ul>
                     <li><a href ="index.html">MUNDI-COMPU</a></li>
                     <li><a href ="Alienware.html">Alienware</a></li>
@@ -24,29 +26,47 @@
                         
                 </ul>
             </nav>
+            <!--contenido-->  
+        <div>
+        <section id="contenido">
+            <article id="columna2">
+                <h1><b>Que es una Computadora?</b></h1>
+                 <blockquote>
+                    <p class="p"><strong>Una</strong> computadora es un dispositivo que podemos encontrar prácticamente en cualquier hogar, 
+                    ya que tanto por tamaño y precio es en la actualidad un artefacto que todos podemos adquirir de manera sencilla 
+                    y con poco esfuerzo económico. Es por ello que existen tantas marcas y modelos de computadoras diferentes.
+                    En este escenario nos podemos encontrar con docenas de computadoras cada una de ellas con diferentes 
+                    características de performance o accesorios, sin embargo, la reputación de la marca, es decir quien la fabricó, 
+                    todavía es una cuestión que muchas veces decide la compra de una computadora hacia un lado o hacia el otro.</p>
             
-        
-        <div id="contenido">
-        <section>
-        <article>
-            <h1>Computadoras</h1>
-            <blockquote>
-            <p><strong>Una</strong> computadora es un dispositivo que podemos encontrar prácticamente en cualquier hogar, 
-            ya que tanto por tamaño y precio es en la actualidad un artefacto que todos podemos adquirir de manera sencilla 
-            y con poco esfuerzo económico. Es por ello que existen tantas marcas y modelos de computadoras diferentes.
-            En este escenario nos podemos encontrar con docenas de computadoras cada una de ellas con diferentes 
-            características de performance o accesorios, sin embargo, la reputación de la marca, es decir quien la fabricó, 
-            todavía es una cuestión que muchas veces decide la compra de una computadora hacia un lado o hacia el otro.</p>
-            
-            <p>
-                A pesar de que las ventas de computadoras han decaído en los últimos años, 
-                debido fundamentalmente a la aparición de smartphones, phablets y tablets, lo cierto es que todavía 
-                son la elección de primera mano para todos aquellos usuarios que necesitan performance y velocidad.
-            </p>
-            </blockquote>
+                    <p class="p">
+                    A pesar de que las ventas de computadoras han decaído en los últimos años, 
+                    debido fundamentalmente a la aparición de smartphones, phablets y tablets, lo cierto es que todavía 
+                    son la elección de primera mano para todos aquellos usuarios que necesitan performance y velocidad.
+                    </p>
+                </blockquote>
+
+                <h1><b>Computadoras Gaming</b></h1>
+                <blockquote>
+                    <p><img src="../Practica02-Mi-Sitio-Web-CSS-/imagenes/gaming2.png" alt=""></p>
+                    <p class="p"><strong>En</strong>el último escalón, buscando una alta calidad para tus 
+                        videojuegos de PC, esta es nuestra configuración. Partimos de un procesador 
+                        Intel Core i7-4770 como mínimo, y como alternativa un AMD FX-83350, y en cualquier caso 
+                        acompañados por 16 GB de memoria RAM. Como tarjeta gráfica, en la gama alta nos será 
+                        suficiente con una GeForece GTX 970 4GB GDDR5. Llegados a este punto, no obstante, 
+                        lo más recomendable es optar por placa base y procesador de las máximas prestaciones, 
+                        y preparados para poder actualizar más adelante tanto la memoria RAM como la tarjeta gráfica. 
+                        Si buscamos el nivel más alto, evidentemente, también podemos optar por componentes de mayores 
+                        prestaciones, pero recomendamos fijarse especialmente en este punto, placa base y procesador. 
+                        Más adelante habrá tiempo de ‘reinvertir’ en tarjeta gráfica y RAM.
+                    </p>
+                </blockquote>
+                
+            </article>
         </section>
-        </div>
-            <article>
+        
+        <section id="contenido"> 
+            <article class="p">
                 <h2>Existen diferentes tipos marcas de computadoras como:</h2>
                 <lu>
                     <li type="disc">Dell</li>
@@ -55,16 +75,21 @@
                     <li type="disc">Asus</li>
                     <li type="disc">Lenovo</li>
                     <li type="disc">Alienware</li>
+                    <li type="disc">Msi</li>
+                    <li type="disc">Acer</li>
+                    <li type="disc">Toshiba</li>
+                    <li type="disc">Samsung</li>
+                    
                 </lu>
             </article>
-
-            <p>Comuníquese con nosotros para que obtenga una mejor informacion sobre las marcas de computadoras en 
+        </section>
+        </div>
+            <p class="p">Comuníquese con nosotros para que obtenga una mejor informacion sobre las marcas de computadoras en 
             <cite>Mundi-Compu</cite>.</p>
 
-        </article>
         <footer id="pie">
-            <p>Call:<a href="tel:0967517923">(07) 2840-331</a></p>
-            <p> Email:<a href="mailto:eyungat@est.ups.edu.ec"> eyungat@est.ups.edu.ec</a></p>
+            <p id="pie_p">Call:<a href="tel:0967517923">(07) 2840-331</a></p>
+            <p id="pie_p"> Email:<a href="mailto:eyungat@est.ups.edu.ec"> eyungat@est.ups.edu.ec</a></p>
             Edisson Javier Yunga Tacuri &#8226; Computacion &#8226; Universidad Politecnica Salesiana &nbsp;
             &copy; Todos los derechos reservados.
         </footer>
