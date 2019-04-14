@@ -13,7 +13,8 @@
 	text-decoration: none;
 }
 nav{
-    background: rgb(245, 239, 239);
+	background: rgb(245, 239, 239);
+	border-radius: 40px;
 }
 #contenido {
 	background: rgb(245, 239, 239);
@@ -55,7 +56,7 @@ h1 {
  
 #img {
 	display:block;
-    margin:auto;
+	margin:auto;
 }
 
 #columna1{
