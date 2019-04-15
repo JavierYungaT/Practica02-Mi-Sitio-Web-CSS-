@@ -1,0 +1,60 @@
+
+cite {
+   color: rgb(110, 110, 255);
+}
+
+header h1 {
+   font-size: 2.2em;
+}
+
+body article h1 {
+   font-size: 1.75em;
+}
+
+footer {
+	font-size: 0.9em;
+}
+
+html {
+	background-color: rgb(243, 232, 220);
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+#columna1{
+    padding: 10px;
+    float: left;
+    width: 15%;
+    color:rgb(35, 11, 146);
+    background: rgb(230, 238, 237);
+
+}
+
+#contenido {
+	background: rgb(230, 238, 237);
+	width: 60%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+}
+#pie {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+div{
+    justify-content: flex-start;
+}

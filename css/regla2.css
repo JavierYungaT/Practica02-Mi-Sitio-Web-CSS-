@@ -1,0 +1,87 @@
+#cabecera{
+	background: rgb(245, 241, 188);
+	color: rgb(8, 7, 7);
+    height: 70px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+#logo {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+img {
+	display:block;
+    margin:auto;
+}
+.imagen{
+    width: 70px;
+    height: 60px;
+}
+.imagen1{
+    width: 400px;
+    height: 300px;
+}
+nav{
+	border-radius: 40px;
+}
+
+#columna1{
+    padding: 10px;
+    float: left;
+    width: 15%;
+    color:rgb(35, 11, 146);
+    background: rgb(230, 238, 237);
+
+}
+
+#contenido {
+	background: rgb(230, 238, 237);
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(247, 158, 158, 0.1);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:'Times New Roman', Times, serif;
+	color: rgb(25, 13, 58);
+	background: white; 
+	font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+    font-weight: 300;
+    color: rgb(54, 54, 33);
+}
+
+#pie {
+    background: rgb(245, 241, 188);
+    width: 100%;
+	color:rgb(19, 17, 17);
+	text-align: left;
+	padding: 20px;
+    margin-top: 40px;
+}
+#pie1 {
+	margin: 0;
+}
+#pie2 {
+	margin: 0;
+}
+
+em{
+    color:rgb(240, 90, 128);
+}
+b{
+    color: black;
+}
