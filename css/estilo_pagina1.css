@@ -38,7 +38,7 @@ nav{
 }
 
 #columna1{
-    padding: 70px;
+    padding: 20px;
     float: left;
     width: 10%;
     color:red
@@ -99,4 +99,7 @@ h1{
 h2{
     color: brown;
     
+}
+li{
+	padding: 10px;
 }
