@@ -7,6 +7,14 @@
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
+#cabecera2{
+    background: rgb(116, 113, 111);
+	color: white;
+    height: 100px;
+	width: 100%; 
+	left: 0; 
+	top: 0
+}
 #logo {
 	float: left;
 	padding: 15px 0 0 20px;
@@ -15,6 +23,11 @@
 img {
 	display:block;
     margin:auto;
+}
+.imagenasus{
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
 }
 .imagen{
     width: 60px;
@@ -36,6 +49,13 @@ nav{
     color:rgb(56, 21, 5)
 
 }
+#columna1asus{
+    padding: 10px;
+    float: left;
+    width: 15%;
+    color:rgb(9, 129, 29);
+    background: rgb(235, 231, 228);
+}
 #columna2{
     padding: 50px;
     float: right;
@@ -45,6 +65,13 @@ nav{
 #contenido {
 	background: rgb(241, 218, 196);
 	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(247, 158, 158, 0.1);
+}
+#contenido2{
+    background: rgb(235, 231, 228);
+    width: 80%;
 	max-width: 800px;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(247, 158, 158, 0.1);
@@ -60,6 +87,10 @@ body {
     line-height: 1.5em;
     padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
 }
+#body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(47, 97, 99);
+}
 h1 {
 	font-size: 2.3em;
 	line-height: 1.3em;
@@ -72,7 +103,15 @@ h1 {
 #pie {
     background: rgb(52, 97, 71);
     width: 100%;
-	color:white;
+	color:rgb(14, 13, 13);
+	text-align: left;
+	padding: 20px;
+    margin-top: 40px;
+}
+#pieasus {
+    background: rgb(116, 113, 111);
+    width: 100%;
+	color:rgb(14, 13, 13);
 	text-align: left;
 	padding: 20px;
     margin-top: 40px;
@@ -96,4 +135,27 @@ aside{
 }
 blockquote{
     color: rgb(10, 83, 117)
+}
+.modelo{
+    width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(247, 158, 158, 0.1);
+}
+table,td {
+	border: 1px solid black;
+}
+#td{
+    color:green;
+}
+#tr{
+    color: brown;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif
+}
+.p{
+    color: darkslategray;
+}
+caption{
+    font-family: serif;
+    color: blueviolet;
 }
