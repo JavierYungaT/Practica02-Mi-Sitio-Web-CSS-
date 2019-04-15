@@ -71,7 +71,7 @@ div{
 	margin-top: 40px;
 }
 div{
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 li{
 	padding: 10px;
