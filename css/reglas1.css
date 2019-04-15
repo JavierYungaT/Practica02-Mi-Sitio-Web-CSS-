@@ -1,5 +1,5 @@
 #cabecera{
-	background: rgb(69, 73, 105);
+	background: rgb(52, 97, 71);
 	color: white;
     height: 70px;
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
@@ -17,15 +17,15 @@ img {
     margin:auto;
 }
 .imagen{
-    width: 50px;
-    height: 40px;
+    width: 60px;
+    height: 50px;
 }
 .imagen1{
     width: 400px;
     height: 300px;
 }
 nav{
-	background: rgb(220, 247, 245);
+	background: rgb(241, 218, 196);
 	border-radius: 40px;
 }
 
@@ -33,16 +33,17 @@ nav{
     padding: 10px;
     float: left;
     width: 15%;
-    color:rgb(35, 11, 146)
+    color:rgb(56, 21, 5)
 
 }
 #columna2{
     padding: 50px;
     float: right;
     width: 77%;
+    color: brown
 }
 #contenido {
-	background: rgb(220, 247, 245);
+	background: rgb(241, 218, 196);
 	width: 80%;
 	max-width: 800px;
 	margin: 20px auto;
@@ -52,8 +53,8 @@ nav{
 body {
 	margin: 0;
 	padding: 0;
-	font-family:'Times New Roman', Times, serif;
-	color: rgb(149, 114, 245);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(64, 34, 66);
 	background: white; 
 	font-size: 1em;
     line-height: 1.5em;
@@ -69,7 +70,7 @@ h1 {
 }
 
 #pie {
-    background: rgb(69, 73, 105);
+    background: rgb(52, 97, 71);
     width: 100%;
 	color:white;
 	text-align: left;
@@ -84,8 +85,15 @@ h1 {
 }
 
 em{
-    color:rgb(240, 90, 128);
+    color:rgb(114, 26, 26);
 }
 b{
     color: black;
+}
+aside{
+    font-family: cursive;
+    color:green;
+}
+blockquote{
+    color: rgb(10, 83, 117)
 }
